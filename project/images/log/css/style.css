@@ -1,0 +1,198 @@
+body{
+	background-image: url('../images/background.jpg');
+}
+
+#container {
+	position:relative;
+	width:964px;
+	min-height: 500px;
+	margin-left:auto;
+	margin-right:auto; 
+	margin-top: 20px;
+	padding-left:0px;
+	padding-right:0px; 
+	padding-top:10px; 
+	padding-bottom:0px;
+	margin-bottom: 10px;
+}
+
+h1{
+	text-align: center;
+}
+
+#title_bar{
+	margin: 0px;
+	margin-top: -11px;
+	margin-bottom: 10px;
+}
+
+#menu_bar{
+	margin: 0px;
+	margin-top: -3px;
+}
+#title{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.hr{
+	border-bottom: 1px solid #BABABA;
+	height: 5px;
+	margin-bottom:-2px;
+	width:600px;
+	align: center;
+}
+
+#main{
+	background-color: #FFFFFF;
+	padding: 10px;
+	width: 940px;
+	min-height: 650px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	font-family: "Droid Sans",Arial,Helvetica,sans-serif;
+	font-size: 12.6px;
+	
+}
+
+
+#text{
+	background-color: #FFFFFF;
+	padding: 10px;
+	width: 620px;
+	min-height: 400px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	font-family: "Droid Sans",Arial,Helvetica,sans-serif;
+	font-size: 12.6px;
+	//float: left;
+	
+}
+
+#courtroom{
+	float: right;
+	margin-left: 2px;
+	margin-right: 10px;
+}
+
+#text_members{
+	float: left;
+	margin-right: 40px;
+	background-color: #FFFFFF;
+	padding: 10px;
+	width: 620px;
+	min-height: 400px;
+	margin-top: 0px;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-size: 12.6px;
+	
+}
+
+#bottom_bar{
+	clear: left;
+	margin: 0px;
+	margin-top: 0px;
+	margin-bottom:0px;
+	background-image: url('../images/bottom_bar2.gif');
+	width: 964px;
+	height: 40px;
+	padding-top: 8px;
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+
+#bottom_bar a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#side_bar{
+	width: 270px;
+	min-height: 400px;
+	float: right;
+	border-left: 1px solid #BABABA;
+	clear: right;
+}
+
+
+#nav {
+ 	width: 964px;
+ 	margin-bottom:25px;
+  	margin-top:-5px;
+ }
+ 
+#nav ul{
+ 		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}
+
+#nav li{
+		float:left;
+	}
+  
+#nav a{
+		display:block;
+		width:137px;
+		height: 35px;
+		background-image: url('../images/menu_bar.jpg');
+		font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+		text-align:center;
+		line-height: 35px;
+		text-decoration: none;
+		color: #FFFFFF;
+ 		font-weight: bold;
+	 }
+#nav a:hover { 
+ 		color: #FFFFFF;
+ 	}
+
+  
+#officer{
+	font-size: 13px;
+}
+
+#committee{
+	font-size: 13px;
+}
+
+#bold{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.red{
+	color: #FF0000;
+}
+
+#nav_members{
+	color: #FFFFFF;
+	line-height: 25px;
+}
+
+div#nav_members ul{
+	list-style: none;
+}
+
+div#nav_members a{
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+#login{
+	margin-left: 115px;
+	margin-top: 45px;
+}
+label{
+	display: inline-block;
+	width: 100px;
+	line-height: 35px;
+}
+
+
+
+
+

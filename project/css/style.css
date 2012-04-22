@@ -1,0 +1,312 @@
+body{
+	background-image: url('../images/purple2_copy.jpg');
+}
+
+#container {
+	position:relative;
+  width:964px;
+  min-height: 500px;
+  margin-left:auto;
+  margin-right:auto; 
+  padding-left:0px;
+  padding-right:0px; 
+  padding-top:10px; 
+  padding-bottom:0px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
+
+h1{
+	text-align: center;
+}
+
+#title_bar{
+	margin: 0px;
+	margin-top: -11px;
+	margin-bottom: 10px;
+}
+
+#menu_bar{
+	margin: 0px;
+	margin-top: -3px;
+}
+#title{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.hr{
+	border-bottom: 1px solid #BABABA;
+	height: 5px;
+	margin-bottom:-2px;
+	width:600px;
+	align: center;
+}
+
+#main{
+	background-color: #FFFFFF;
+	padding: 10px;
+	width: 940px;
+	min-height: 650px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	font-family: "Droid Sans",Arial,Helvetica,sans-serif;
+	font-size: 12.6px;
+	
+}
+
+
+#text{
+	background-color: #FFFFFF;
+	padding: 10px;
+	width: 620px;
+	min-height: 400px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	font-family: "Droid Sans",Arial,Helvetica,sans-serif;
+	font-size: 12.6px;
+	//float: left;
+	
+}
+
+#courtroom{
+	float: right;
+	margin-left: 2px;
+	margin-right: 10px;
+}
+
+#text_members{
+	float: left;
+	margin-right: 40px;
+	background-color: #FFFFFF;
+	padding: 10px;
+	width: 620px;
+	min-height: 400px;
+	margin-top: 0px;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-size: 12.6px;
+	
+}
+
+#bottom_bar{
+	clear: left;
+	margin: 0px;
+	margin-top: 0px;
+	margin-bottom:0px;
+	background-image: url('../images/bottom_bar2.gif');
+	width: 964px;
+	height: 40px;
+	padding-top: 8px;
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+
+#bottom_bar a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#side_bar{
+	width: 270px;
+	min-height: 400px;
+	float: right;
+	border-left: 1px solid #BABABA;
+	clear: right;
+}
+
+/*-----------RSS Feed---------------*/
+.rss_box {
+	 margin: 1em;
+	 width: 90%;
+	 background-color: #EEE;
+	 border: 1px solid silver;
+	 
+}
+.rss_items {
+	margin-top:0px;
+	padding:0.5em; 0.5em;
+	margin-left:0px;
+	color:#000000;
+}
+p.rss_title {padding:0.5em;}
+.rss_title {
+	font-size: 8pt;
+	background-color: silver;
+	color: gray;
+	font-weight:bold;
+	text-align: left;
+}
+
+.rss_item  {
+  font-size: 7pt;
+  list-style:none;
+  padding-bottom:1em;
+}
+
+.rss_item a {
+	color:navy;
+	font-size: 9pt;
+	font-weight:bold;
+	}
+	
+.rss_item a:visited {
+	color: black;
+}
+
+.rss_date {
+	font-size: 7pt;
+	color: red;
+	}
+/*--------------------------------------*/
+
+#nav {
+ 	width: 964px;
+ 	margin-bottom:25px;
+  	margin-top:-5px;
+ }
+ 
+#nav ul{
+ 		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}
+
+#nav li{
+		float:left;
+	}
+  
+#nav a{
+		display:block;
+		width:137px;
+		height: 35px;
+		background-image: url('../images/menu_bar.gif');
+		font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+		text-align:center;
+		line-height: 35px;
+		text-decoration: none;
+		color: #FFCC00;
+ 		font-weight: bold;
+	 }
+#nav a:hover { 
+ 		color: #FFFFFF;
+ 	}
+
+  
+#officer{
+	font-size: 13px;
+}
+
+#committee{
+	font-size: 13px;
+}
+
+#bold{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.red{
+	color: #FF0000;
+}
+
+#nav_members{
+	color: #FFFFFF;
+	line-height: 25px;
+}
+
+div#nav_members ul{
+	list-style: none;
+}
+
+div#nav_members a{
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+#login{
+	margin-left: 115px;
+	margin-top: 45px;
+}
+label{
+	display: inline-block;
+	width: 100px;
+	line-height: 35px;
+}
+
+#table td{
+	
+	width: 150px;
+	text-align: left;
+}
+
+#table th{
+	text-align: left;
+}
+#founding_officers{
+	float: left;
+	margin-right: 150px;
+	margin-bottom: 20px;
+}
+
+
+#founding_fathers{
+	clear:left;
+}
+
+#advisor{
+	padding-top: 1px;
+}
+
+#current_officers {
+	float: left;
+	margin-right: 170px;
+	margin-bottom: 20px;
+}
+
+#current_officers h3 {
+	padding-left: 40px;
+	padding-bottom: 20px;
+}
+#current_committee {
+	padding-top: 0px;
+}
+
+#welcome{
+	float:left;
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+	margin-top: -10px;
+}
+
+#post{
+	margin-left: 30px;
+	font-size: 13px;
+}
+
+#date_posted{
+	text-align: right;
+}
+#nat_info{
+	line-height: 17px;
+}
+
+#no_post{
+	margin:50px;
+}
+
+#underline{
+	text-decoration: underline
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	width=500px;
+}
+
+
+
